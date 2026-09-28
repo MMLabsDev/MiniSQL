@@ -30,3 +30,11 @@ while True:
 
         database[table_name].append(added)
         print(f"'{added}' guardado correctamente")
+
+    elif len(parts) == 3 and parts[0].upper() == "SHOW" and parts[1] == "TABLE":
+        table_name = parts[2]
+
+        print(database[table_name])
+
+    else:
+        print("Error")
