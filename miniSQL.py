@@ -36,5 +36,15 @@ while True:
 
         print(database[table_name])
 
+    elif len(parts) == 3 and parts[0].upper() == "DELETE" and parts[1].upper() == "TABLE":
+        table_name = parts[2]
+        del database[table_name]
+        print("Tabla borrada")
+
+    elif len(parts) == 2 and parts[0].upper() == "DELETE" and parts[1].upper() == "DATABASE":
+        database = {}
+        print("base de datos borrada")
+
+
     else:
         print("Error")
