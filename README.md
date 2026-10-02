@@ -14,7 +14,13 @@ MiniSQL es un experimento sencillo hecho en python para comprender mejor el back
 ---
 ## Características:
 * creación de tablas en forma de diccionarios de python.
-* Reconocimiento de comandos básicos como `CREATE TABLE X`, `INSERT INTO X Y` y `SHOW DATABASE`.
+* Reconocimiento de comandos básicos como:
+- `CREATE TABLE X`
+- `INSERT INTO X Y`
+- `SHOW DATABASE`
+- `DELETE TABLE X`
+- `DELETE DATABASE`
+- `ADD COLUMNS` _en desarrollo_
 
 <img width="528" height="265" alt="image" src="https://github.com/user-attachments/assets/94cc7468-9e3b-4ba4-8589-6006b04e1540" />
 
