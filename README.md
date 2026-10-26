@@ -24,6 +24,10 @@ MiniSQL es un experimento sencillo hecho en python para comprender mejor el back
 
 <img width="528" height="265" alt="image" src="https://github.com/user-attachments/assets/94cc7468-9e3b-4ba4-8589-6006b04e1540" />
 
+## ¿Cómo lo uso?
+[CREATE TABLE]: Para crear una tabla, ingrese el comando, y responda al nombre de la Tabla y su contenido
+[DELETE TABLE]: Para eliminar una tabla, ingrese el comando seguida del nombre de la tabla a eliminar
+[SHOW DATABASE]: Para ver la BD, solo ingrese el comando
 ---
 ## Métodos usados:
 * Guardado de archivos de diccionario en json.
